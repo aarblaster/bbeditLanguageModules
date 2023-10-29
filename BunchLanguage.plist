@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
+<plist version="1.1">
 
 <!-- A tiny language to colour some keywords in 
 	Bunch files to make my life easier.
@@ -50,6 +50,8 @@
 	</array>
 	<key>BBLMCommentLineDefault</key>
 	<string>//</string>
+	
+	<!-- Features of the language to use -->
 	<key>Language Features</key>
 	<dict>
 		<key>Identifier and Keyword Character Class</key>
@@ -68,7 +70,10 @@
 		<string>{</string>		
 		<key>Close Statement Blocks</key>
 		<string>}</string>		
-
+		<key>Open Parameter Lists</key>
+		<string>?[</string>		
+		<key>Close Parameter Lists</key>
+		<string>]</string>	
 	</dict>
 	
 </dict>
