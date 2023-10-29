@@ -1,35 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
+
+<!-- A tiny language to colour some keywords in 
+	Bunch files to make my life easier.
+	Copyright Anthony Arblaster 2023 -->
+
 <dict>
+	<!-- Some required stuff. Inclyding a unique ID. -->	
 	<key>BBEditDocumentType</key>
 	<string>CodelessLanguageModule</string>
 	<key>BBLMLanguageDisplayName</key>
 	<string>Bunch</string>
 	<key>BBLMLanguageCode</key>
 	<string>bunh</string>
+	
+	
+	<!-- File Name to apply to -->	
 	<key>BBLMSuffixMap</key>
 	<array>
 		<dict>
 			<key>BBLMLanguageSuffix</key>
 			<string>.bunch</string>
 		</dict>
-		<dict>
-			<key>BBLMLanguageSuffix</key>
-			<string>.snippets</string>
-		</dict>
 	</array>
 	<key>BBLMPreferredFilenameExtension</key>
 	<string>bunch</string>
+	
+	<!-- Spell Check? -->	
 	<key>BBLMCanSpellCheckCodeRuns</key>
 	<true/>
+	
+	<!-- Should syntax be coloured?,
+		Obviously the answer is yes. -->
 	<key>BBLMColorsSyntax</key>
 	<true/>
+	
+	<!-- Specify some keywords. This isn’t required, either,
+        but it provides something to color: -->
+	<key>BBLMKeywordList</key>
+	<array>
+		<string>___</string>
+		<string>if</string>
+		<string>else</string>
+		<string>end</string>
+		<string>do</string>
+		<string>for</string>
+		<string>return</string>
+	</array>
 	<key>BBLMCommentLineDefault</key>
 	<string>//</string>
 	<key>Language Features</key>
-	<dict/>
-	<key>New item</key>
-	<string></string>
+	<dict>
+		<key>Identifier and Keyword Character Class</key>
+		<string>A-Za-z0-9_</string>
+		<key>Open Line Comments</key>
+		<string>//</string>
+		<key>Open Strings 1</key>
+		<string>"</string>
+		<key>Close Strings 1</key>
+		<string>"</string>
+		<key>Escape Char in Strings 1</key>
+		<string>\</string>
+		<key>End-of-line Ends Strings 1</key>
+		<false/>
+		<key>Open Statement Blocks</key>
+		<string>{</string>		
+		<key>Close Statement Blocks</key>
+		<string>}</string>		
+
+	</dict>
+	
 </dict>
 </plist>
