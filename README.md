@@ -38,9 +38,9 @@ If you encounter a problem you can raise and issue using the issue tab on Github
 
 ## Licence 
 This project licence is:
-![GitHub](https://img.shields.io/github/license/aarblaster/bbeditLanguageModules.svg)
+![GitHub](https://img.shields.io/github/license/aarblaster/bbeditLanguageModules.svg)   
 The licence is designed to allow you to edit, change and use the software fairly permissively.
 
 ## Say Hello
- If you find this project useful let me know!
+ If you find this project useful let me know!   
  Made with love in London.
