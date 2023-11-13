@@ -2,20 +2,20 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.1">
 
-<!--
+<!-- 
 	BunchLanguage.plist
 	
-	A codeless language to colour some keywords in Bunch files.
-	
-	Copyright Anthony Arblaster 2023 
+	A way of viewing Bunch files that picks out some of the key words.
+	Just to make things easier to read.
+		
+	Copyright Anthony Arblaster 2023
 		Web: codebyanthony.com
 		Mastodon: https://mastodonapp.uk/@aarblaster
-		Github: @aarblaster 
+		GitHub: https://github.com/aarblaster/bbeditLanguageModules
 	
-	Many thanks to the folks at (BBEdit)[https://www.barebones.com]
-	Many thanks to Bret Terpstra for (Bunch)[https://bunchapp.co]
-	
-	BBEdit v14.0.0 <
+	MIT Licence
+	Huge thanks to team BBEdit.
+	Many thanks to Bret Terpstra for [Bunch](https://bunchapp.co)
 -->
 
 <dict>
