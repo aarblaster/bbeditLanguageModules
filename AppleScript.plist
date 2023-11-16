@@ -57,7 +57,7 @@
         <string>if</string>
         <string>then</string>
         <string>else</string>
-        <string>end</string>
+        <string>end if</string>
         <string>tell</string>
         <string>end tell</string>
         <string>application</string>
