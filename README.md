@@ -18,7 +18,7 @@ The list of modules include:
 
 
 ## System Requirements
-- BBEdit < v14.0.0
+- BBEdit > v14.0.0
 
 
 ## Installation
