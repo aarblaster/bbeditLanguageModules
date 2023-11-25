@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.1">
+<plist version="1.2">
 
 <!-- 
 	AppleScript.plist
@@ -10,9 +10,8 @@
 	Copyright Anthony Arblaster 2023
 		Web: codebyanthony.com
 		Mastodon: https://mastodonapp.uk/@aarblaster
-		GitHub: https://github.com/aarblaster/bbeditLanguageModules
+		GitHub: https://github.com/aarblaster
 	
-	MIT Licence
 	Huge thanks to team BBEdit.
 -->
 
@@ -67,11 +66,7 @@
         
         <!-- Add more keywords as needed -->
     </array>
-    
-    <!-- Comment line-->
-	<key>BBLMCommentLineDefault</key>
-	<string>--</string>
-	
+		
 	<!-- Features of the language to use -->
 	<key>Language Features</key>
 	<dict>
@@ -94,7 +89,15 @@
 		<key>Open Parameter Lists</key>
 		<string>(</string>		
 		<key>Close Parameter Lists</key>
-		<string>)</string>	
+		<string>)</string>
+		
+		<!-- Comments both inline and block. NEED TO ADD the -- line option-->
+		<key>Open Line Comments</key>
+		<string>#</string>
+		<key>Open Block Comments</key>
+		<string>(*</string>
+		<key>Close Block Comments</key>
+		<string>*)</string>
 	</dict>
 </dict>
 </plist>
